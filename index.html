@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
+
+    <!-- cabeçalho -->
     <section class="hero">
         <div class="hero__content">
             <h1 class="hero__content__branding">
@@ -29,7 +31,7 @@
                     <span class="text">R$ 45,90/mês*</span>
                 </li>
                 <li class="hero__content__combos__combo">
-                    <img src="dist/images/logos/disney_star_plus.png" alt="Combo+">
+                    <img src="dist/images/logos/disney_star_plus_starzplay.png" alt="services">
                     <button>Assine Agora</button>
                     <span class="text">R$ 55,90/mês*</span>
                 </li>
@@ -39,5 +41,126 @@
             </p>
         </div>
     </section>
+
+    <!-- navegação dos shows -->
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="em_breve" class="shows__tabs__button  ">
+                Em breve
+            </button>
+            <button data-tab-button="mais_pop" class="shows__tabs__button">
+                Mais populares
+            </button>
+            <button data-tab-button="mais_star" class="shows__tabs__button">
+                Mais no Star+
+            </button>
+        </nav>
+
+        <!-- Em breve -->
+        <ul data-tab-id="em_breve" class="shows__list shows__list--is-active ">
+            <li class="shows__list__item">
+                <img src="src/images/em_breve/spidey.jpg" alt="miranha">
+            </li>
+            <li class="shows__list__item">
+                <img src="src/images/em_breve/desencantada.jpg" alt="desencantada">
+            </li>
+            <li class="shows__list__item">
+                <img src="src/images/em_breve/lobisomem.jpg" alt="lobisomem">
+            </li>
+            <li class="shows__list__item">
+                <img src="src/images/em_breve/sem_limites.jpg" alt="sem_limites">
+            </li>
+            <li class="shows__list__item">
+                <img src="src/images/em_breve/the_santa_clauses.jpg" alt="the_santa_clauses">
+            </li>
+            <li class="shows__list__item">
+                <img src="src/images/em_breve/willow.jpg" alt="willow">
+            </li>
+        </ul>
+
+        <!-- Mais populares -->
+        <ul data-tab-id="mais_pop" class="shows__list shows__list-">
+            <li class="shows__list__item">
+                <img src="src/images/mais_populares/bluey.jpg" alt="bluey">
+            </li>
+            <li class="shows__list__item">
+                <img src="src/images/mais_populares/cavaleira_da_lua.jpg" alt="cavaleira_da_lua">
+            </li>
+            <li class="shows__list__item">
+                <img src="src/images/mais_populares/o_incrivel_dr_pol.jpg" alt="o_incrivel_dr_pol">
+            </li>
+            <li class="shows__list__item">
+                <img src="src/images/mais_populares/obi_wan.jpg" alt="obi_wan">
+            </li>
+            <li class="shows__list__item">
+                <img src="src/images/mais_populares/red.jpg" alt="red">
+            </li>
+            <li class="shows__list__item">
+                <img src="src/images/mais_populares/tudo_igual_sqn.jpg" alt="tudo_igual_sqn">
+            </li>
+        </ul>
+
+        <!-- Mais no Star+ -->
+        <ul data-tab-id="mais_star" class="shows__list shows__list">
+            <li class="shows__list__item">
+                <img src="src/images/mais_no_star_plus/belair.jpg" alt="belair">
+            </li>
+            <li class="shows__list__item">
+                <img src="src/images/mais_no_star_plus/libertadores.jpg" alt="libertadores">
+            </li>
+            <li class="shows__list__item">
+                <img src="src/images/mais_no_star_plus/nba.jpg" alt="nba">
+            </li>
+            <li class="shows__list__item">
+                <img src="src/images/mais_no_star_plus/os_simpson.jpg" alt="homer">
+            </li>
+            <li class="shows__list__item">
+                <img src="src/images/mais_no_star_plus/premier_league.jpg" alt="premier">
+            </li>
+            <li class="shows__list__item">
+                <img src="src/images/mais_no_star_plus/the_kardashians.jpg" alt="kardashians">
+            </li>
+        </ul>
+    </section>
+
+    <!-- planos -->
+    <section class="plans">
+        <h2 class="title--big">
+            Escolha seu plano
+        </h2>
+        <ul class="plans__list">
+
+            <!-- disney+ -->
+            <li class="plans__list__item">
+                <img src="src/images/logos/disneyplus_underline.png" alt="disney+">
+                <strong class="title--small">R$ 27,90/mês*</strong>
+                <p class="text">
+                    No Disney+ você encontra as ultimas estreias do cinema, originais e classicos inesqueciveis.
+                </p>
+                <button>Assine agora</button>
+            </li>
+            
+            <!-- disney+ -->
+            <li class="plans__list__item">
+                <img src="src/images/logos/disney_star_plus.png" alt="combo+">
+                <strong class="title--small">R$ 45,90/mês*</strong>
+                <p class="text">
+                    No Disney+ você encontra as ultimas estreias do cinema, originais e classicos inesqueciveis.
+                </p>
+                <button>Assine agora</button>
+            </li>
+            
+            <!-- disney+ -->
+            <li class="plans__list__item">
+                <img src="src/images/logos/disney_star_plus_starzplay_underline.png" alt="combo+-starzplay">
+                <strong class="title--small">R$ 55,90/mês*</strong>
+                <p class="text">
+                    No Disney+ você encontra as ultimas estreias do cinema, originais e classicos inesqueciveis.
+                </p>
+                <button>Assine agora</button>
+            </li>
+        </ul>
+    </section>
+    <script src="src/main.js"></script>
 </body>
 </html>

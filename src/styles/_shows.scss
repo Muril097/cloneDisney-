@@ -2,6 +2,11 @@
 
 .shows {
     padding: 2vw 5.6vw;
+    min-height: 50vw;
+
+    @media (max-width: 1439px) {
+        padding: 2vw 0;
+    }
 
     &__list {
         margin-top: 44px;
@@ -15,10 +20,23 @@
 
         &__item {
             img {
-                max-width: 100%;
-                border-radius: 4px;
+                width: 410.24px;
+                height: 246.14px;
+                border-radius: 8px;
             }
         }
+
+        @media (max-width: 767px) {
+            grid-template-columns: 1fr;
+            gap: 0px;
+            justify-content: center;
+        }
+
+        @media (max-width: 1439px) {
+            grid-template-columns: 1fr 1fr;
+            gap: 0px;
+        }
+
     }
 
     &__tabs {

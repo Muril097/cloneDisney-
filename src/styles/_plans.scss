@@ -1,7 +1,57 @@
+@use 'variaveis';
+
 .plans {
     padding: 5.6vw;
 
     h2 {
         text-align: center;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        margin-top: 50px;
+
+        &__item{
+
+            text-align: center;
+            padding: 60px 44px 44px;
+            max-width: 380px;
+            width: 100%;
+
+            @media (max-width: 1439px) {
+                align-content: center;
+            }
+
+            &:nth-child(1) {
+                background: linear-gradient(180deg, rgba(0,38,6,1) 0%, rgba(0,212,255,0) 95%);
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+
+            img {
+                height: 83px;
+            }
+
+            strong {
+                display: block;
+                margin-top: 24px;
+            }
+
+        }
+    }
+
+    p {
+        text-align: center;
+    }
+
+    @media (max-width: 767px) {
+        &__list{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0px;
+        justify-content: center;
+        }
     }
 }

@@ -3,164 +3,264 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tarefa do Projeto-4</title>
     <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
 
-    <!-- cabeçalho -->
+    <!-- cabeçalho ou hero-->
     <section class="hero">
         <div class="hero__content">
-            <h1 class="hero__content__branding">
-                <img src="dist/images/disneyplus.svg" alt="Disney+">
+            <h1 class="hero__content__title title--big">
+                Meus filmes favoritos
             </h1>
-            <h3 class="title--small">
-                As melhores historias em um só lugar
-            </h3>
-            <p>
-                <a href="#" class="link-text">Assinar o Disney+</a>
-                <br>
-                <span class="text">
-                    R$ 27,90/mês ou 279,90/ano á vista*
-                </span>
-            </p>
-            <ul class="hero__content__combos">
-                <li class="hero__content__combos__combo">
-                    <img src="dist/images/logos/disney_star_plus.png" alt="Combo+">
-                    <button>Assine Agora</button>
-                    <span class="text">R$ 45,90/mês*</span>
-                </li>
-                <li class="hero__content__combos__combo">
-                    <img src="dist/images/logos/disney_star_plus_starzplay.png" alt="services">
-                    <button>Assine Agora</button>
-                    <span class="text">R$ 55,90/mês*</span>
-                </li>
-            </ul>
-            <p class="text--small">
-                *O preço pode variar caso a assinatura seja feita através de outras plataformas
-            </p>
         </div>
     </section>
 
     <!-- navegação dos shows -->
     <section class="shows">
         <nav class="shows__tabs">
-            <button data-tab-button="em_breve" class="shows__tabs__button  ">
-                Em breve
+            <button data-tab-button="classics" class="shows__tabs__button  ">
+                classicos
             </button>
-            <button data-tab-button="mais_pop" class="shows__tabs__button">
-                Mais populares
+            <button data-tab-button="pop" class="shows__tabs__button">
+                populares
             </button>
-            <button data-tab-button="mais_star" class="shows__tabs__button">
-                Mais no Star+
+            <button data-tab-button="underground" class="shows__tabs__button">
+                desconhecidos
             </button>
         </nav>
 
-        <!-- Em breve -->
-        <ul data-tab-id="em_breve" class="shows__list shows__list--is-active ">
+        <!-- Classicos -->
+        <ul data-tab-id="classics" class="shows__list shows__list--is-active ">
             <li class="shows__list__item">
-                <img src="src/images/em_breve/spidey.jpg" alt="miranha">
+                <img src="src/images/classics/245561650_4185783341549333_2830060090040248476_n.jpg" alt="madmax">
             </li>
             <li class="shows__list__item">
-                <img src="src/images/em_breve/desencantada.jpg" alt="desencantada">
+                <img src="src/images/classics/299388-Sepik.jpg" alt="robocop">
             </li>
             <li class="shows__list__item">
-                <img src="src/images/em_breve/lobisomem.jpg" alt="lobisomem">
+                <img src="src/images/classics/30-facts-about-the-movie-road-house-1687848082.jpg" alt="matador_de_aluguel">
             </li>
             <li class="shows__list__item">
-                <img src="src/images/em_breve/sem_limites.jpg" alt="sem_limites">
+                <img src="src/images/classics/4a2ffcbcf4d4edc39318a58f8d53c0d0363a61797ea7b70a30b5b9df7d4ca1da.jpg" alt="o_ultimo_dragao">
             </li>
             <li class="shows__list__item">
-                <img src="src/images/em_breve/the_santa_clauses.jpg" alt="the_santa_clauses">
+                <img src="src/images/classics/destaque_conan_obarbaro_ahistoriaoficialdofilme_altageek_26102023.jpg" alt="conan">
             </li>
             <li class="shows__list__item">
-                <img src="src/images/em_breve/willow.jpg" alt="willow">
-            </li>
-        </ul>
-
-        <!-- Mais populares -->
-        <ul data-tab-id="mais_pop" class="shows__list shows__list-">
-            <li class="shows__list__item">
-                <img src="src/images/mais_populares/bluey.jpg" alt="bluey">
+                <img src="src/images/classics/fe61139a76e723530bd4e0b3a1d29cb4d98f8a554271a2ad0b32ebd5996ffa60._UR1920,1080_.jpg" alt="demolidor">
             </li>
             <li class="shows__list__item">
-                <img src="src/images/mais_populares/cavaleira_da_lua.jpg" alt="cavaleira_da_lua">
+                <img src="src/images/classics/maxresdefault (1).jpg" alt="kickboxer">
             </li>
             <li class="shows__list__item">
-                <img src="src/images/mais_populares/o_incrivel_dr_pol.jpg" alt="o_incrivel_dr_pol">
+                <img src="src/images/classics/maxresdefault (2).jpg" alt="falcao">
             </li>
             <li class="shows__list__item">
-                <img src="src/images/mais_populares/obi_wan.jpg" alt="obi_wan">
-            </li>
-            <li class="shows__list__item">
-                <img src="src/images/mais_populares/red.jpg" alt="red">
-            </li>
-            <li class="shows__list__item">
-                <img src="src/images/mais_populares/tudo_igual_sqn.jpg" alt="tudo_igual_sqn">
+                <img src="src/images/classics/maxresdefault.jpg" alt="grande_dragao_branco">
             </li>
         </ul>
 
-        <!-- Mais no Star+ -->
-        <ul data-tab-id="mais_star" class="shows__list shows__list">
+        <!-- populares -->
+        <ul data-tab-id="pop" class="shows__list shows__list-">
             <li class="shows__list__item">
-                <img src="src/images/mais_no_star_plus/belair.jpg" alt="belair">
+                <img src="src/images/mais_populares/1318742.jpeg" alt="kraven">
             </li>
             <li class="shows__list__item">
-                <img src="src/images/mais_no_star_plus/libertadores.jpg" alt="libertadores">
+                <img src="src/images/mais_populares/1322463.jpg" alt="deadpool3">
             </li>
             <li class="shows__list__item">
-                <img src="src/images/mais_no_star_plus/nba.jpg" alt="nba">
+                <img src="src/images/mais_populares/1370316.jpeg" alt="capitao_america3">
             </li>
             <li class="shows__list__item">
-                <img src="src/images/mais_no_star_plus/os_simpson.jpg" alt="homer">
+                <img src="src/images/mais_populares/1371074.jpeg" alt="alien">
             </li>
             <li class="shows__list__item">
-                <img src="src/images/mais_no_star_plus/premier_league.jpg" alt="premier">
+                <img src="src/images/mais_populares/38c8a664f6f5ffe3c35fc4f775f885cf5468bda4ff4990477e98aa4537fbd384._SX1080_FMpng_.png" alt="hellboy">
             </li>
             <li class="shows__list__item">
-                <img src="src/images/mais_no_star_plus/the_kardashians.jpg" alt="kardashians">
+                <img src="src/images/mais_populares/gladiador-2-1-jpg.jpg" alt="gladiador2">
+            </li>
+            <li class="shows__list__item">
+                <img src="src/images/mais_populares/maxresdefault.jpg" alt="substancia">
+            </li>
+            <li class="shows__list__item">
+                <img src="src/images/mais_populares/mega_logo.jpeg" alt="megalopolis">
+            </li>
+            <li class="shows__list__item">
+                <img src="src/images/mais_populares/O-Corvo-006.jpg" alt="corvo">
+            </li>
+        </ul>
+
+        <!-- Desconhecido -->
+        <ul data-tab-id="underground" class="shows__list shows__list">
+            <li class="shows__list__item">
+                <img src="src/images/desconhecidos/203a5ec94e9bb894a6975a84ec4fe84267cd98008ba1b54378c8c38f4cf71bd2.jpg" alt="hora_do_pesadelo">
+            </li>
+            <li class="shows__list__item">
+                <img src="src/images/desconhecidos/736b5242a69528aeb2a36bd79655a589561903496a7df7c64986e1c052c257f9.jpg" alt="coherence">
+            </li>
+            <li class="shows__list__item">
+                <img src="src/images/desconhecidos/e5a066c252316a76f683e27e7e683e8fa803ab0c06d2161d48b0ecb5a82fc7a3.jpg" alt="amnesia">
+            </li>
+            <li class="shows__list__item">
+                <img src="src/images/desconhecidos/images-original.png" alt="setimo_coontinete">
+            </li>
+            <li class="shows__list__item">
+                <img src="src/images/desconhecidos/Nefarious-open-graph.jpg" alt="nefarious">
+            </li>
+            <li class="shows__list__item">
+                <img src="src/images/desconhecidos/thumb-1920-590253.jpg" alt="ex-machina">
+            </li>
+            <li class="shows__list__item">
+                <img src="src/images/desconhecidos/Vitrine-padrao-4.jpg" alt="boa_noite_mamae">
+            </li>
+            <li class="shows__list__item">
+                <img src="src/images/desconhecidos/wp6939858.jpg" alt="stalker">
+            </li>
+            <li class="shows__list__item">
+                <img src="src/images/desconhecidos/zQeLaM.jpg" alt="american_psycho">
             </li>
         </ul>
     </section>
 
-    <!-- planos -->
+    <!-- escolha onde assistir -->
     <section class="plans">
         <h2 class="title--big">
-            Escolha seu plano
+            Assista nestas plataformas
         </h2>
         <ul class="plans__list">
 
-            <!-- disney+ -->
+            <!-- torrent -->
             <li class="plans__list__item">
-                <img src="src/images/logos/disneyplus_underline.png" alt="disney+">
-                <strong class="title--small">R$ 27,90/mês*</strong>
-                <p class="text">
-                    No Disney+ você encontra as ultimas estreias do cinema, originais e classicos inesqueciveis.
+                <!-- <h1>Em destaque !</h1> -->
+                <img src="src/images/logos/torrent.png" alt="torrent">
+                <p class="text--big">
+                    No torrent você assiste filmes de forma gratuita
                 </p>
-                <button>Assine agora</button>
+                <button class="button">Assine agora</button>
             </li>
             
-            <!-- disney+ -->
+            <!-- netflix -->
             <li class="plans__list__item">
-                <img src="src/images/logos/disney_star_plus.png" alt="combo+">
-                <strong class="title--small">R$ 45,90/mês*</strong>
-                <p class="text">
-                    No Disney+ você encontra as ultimas estreias do cinema, originais e classicos inesqueciveis.
+                <img src="src/images/logos/Netflix-N-Symbol-logo.png" alt="netflix">
+                <p class="text--big">
+                    No netflix assista filmes de forma mais segura
                 </p>
-                <button>Assine agora</button>
+                <button class="button">Assine agora</button>
             </li>
             
-            <!-- disney+ -->
+            <!-- youtube -->
             <li class="plans__list__item">
-                <img src="src/images/logos/disney_star_plus_starzplay_underline.png" alt="combo+-starzplay">
-                <strong class="title--small">R$ 55,90/mês*</strong>
-                <p class="text">
-                    No Disney+ você encontra as ultimas estreias do cinema, originais e classicos inesqueciveis.
+                <img src="src/images/logos/pngwing.com.png" alt="youtube">
+                <p class="text--big">
+                    alguns filmes são gratuitos no youtube
                 </p>
-                <button>Assine agora</button>
+                <button class="button">Assine agora</button>
             </li>
         </ul>
     </section>
+
+    <!-- assista do seu jeito -->
+    <section class="image-text-section">
+        <img src="src/images/tv_pc_tablet_celular.png" alt="imagem do pc, tv, celular e tablet">
+        <div class="image-text-section__text_container">
+            <h2 class="title">Assista do seu jeito</h2>
+            <p class="text--big">
+                tenha seus filmes na palma da sua mão e veja quando e onde quiser, online e (offline quando o conteúdo for baixado) !
+            </p>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <h2 class="title">Perguntas frequentes</h2>
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Sobre o torrent
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Benefícios do Torrent:
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    ● Gratuito
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    ● Filmes e series offline
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    ● Download ilimitado
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    ● Possivel contaminação por virus
+                </div>
+            </li>
+
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Netflix
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    ● Pago
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    ● limitado por IP
+                </div>
+            </li>
+
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Youtube
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    ● Alguns videos gratuitos
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    ● qualidade de video e audio variada
+                </div>
+            </li>
+
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Quais formas de pagamento posso utilizar?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Nos apps pagos o pagamento pode ser feito com cartão de crédito e debito, ou pix
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+
+        <div class="fcontainer">
+
+            <ul>
+                <h3>links</h3>
+                <li><a href="#" class="text-white link-offset-2 link-underline link-underline-opacity-0">classicos</a></li>
+                <li><a href="#" class="text-white link-offset-2 link-underline link-underline-opacity-0">populares</a></li>
+                <li><a href="#" class="text-white link-offset-2 link-underline link-underline-opacity-0">desconhecidos</a></li>
+            </ul>
+    
+            <ul>
+                <h3>Suporte</h3>
+                <li><a href="#" class="text-white link-offset-2 link-underline link-underline-opacity-0">FAQ</a></li>
+                <li><a href="#" class="text-white link-offset-2 link-underline link-underline-opacity-0">Comunidade</a></li>
+            </ul>
+    
+            <ul>
+                <h3>contacte-me</h3>
+                <li><p>(11)12312-5678</p></li>
+                <li><p>filmefavorita@outlook.com</p></li>
+            </ul>
+    
+        </div>
+
+        <div class="copy"> Todos os direitos reservados - 2024</div>
+
+    </footer>
     <script src="src/main.js"></script>
 </body>
 </html>
